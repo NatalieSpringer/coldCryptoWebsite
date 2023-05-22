@@ -1,0 +1,315 @@
+{
+    "coins":[
+    {   "name": "BTC",
+        "title": "Bitcoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1/?convert=",
+        "blockchain":"https://chain.api.btc.com/v3/address/"
+    },
+    {   "name": "ETH",
+        "title": "Ethereum",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1027/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=balance&tag=latest&address="
+    },
+    {   "name": "LTC",
+        "title": "Litecoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2/?convert=",
+        "blockchain":"https://chain.so/api/v2/get_address_balance/LTC/"
+    },
+    {   "name": "BCH",
+        "title": "Bitcoin Cash",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1831/?convert=",
+        "blockchain":"https://blockdozer.com/insight-api/addr/"
+    },
+    {   "name": "ETC",
+        "title": "Ethereum Classic",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1321/?convert=",
+        "blockchain":"https://api.gastracker.io/addr/"
+    },
+    {   "name": "DOGE",
+        "title": "Dogecoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/74/?convert=",
+        "blockchain":"https://chain.so/api/v2/get_address_balance/DOGE/"
+    },
+    {   "name": "ZEC",
+        "title": "Zcash",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1437/?convert=",
+        "blockchain":"https://api.zcha.in/v2/mainnet/accounts/"
+    },
+    {   "name": "XRP",
+        "title": "Ripple",
+        "price":"https://api.coinmarketcap.com/v2/ticker/52/?convert=",
+        "blockchain":"https://data.ripple.com/v2/accounts/"
+    },
+    {   "name": "DASH",
+        "title": "Dash",
+        "price":"https://api.coinmarketcap.com/v2/ticker/131/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/dash/api.dws?q=getbalance&a="
+    },
+    {   "name": "STRAT",
+        "title": "Stratis",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1343/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/strat/api.dws?q=getbalance&a="
+    },
+    {   "name": "UBIQ",
+        "title": "Ubiq",
+        "price":"https://api.coinmarketcap.com/v2/ticker/588/?convert=",
+        "blockchain":"https://ubiqexplorer.com/api/Balance/"
+    },
+    {   "name": "VTC",
+        "title": "Vertcoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/99/?convert=",
+        "blockchain":"http://explorer.vertcoin.info/ext/getbalance/"
+    },
+    {   "name": "VIA",
+        "title": "Viacoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/470/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/via/api.dws?q=getbalance&a="
+    },
+    {   "name": "XST",
+        "title": "Stealthcoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/448/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/xst/api.dws?q=getbalance&a="
+    },
+    {   "name": "DGB",
+        "title": "Digibyte",
+        "price":"https://api.coinmarketcap.com/v2/ticker/109/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/dgb/api.dws?q=getbalance&a="
+    },
+    {   "name": "NEO",
+        "title": "Neo",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1376/?convert=",
+        "blockchain":"https://neoscan.io/api/main_net/v1/get_balance/"
+    },
+    {   "name": "HSR",
+        "title": "Hshare",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1903/?convert=",
+        "blockchain":"http://explorer.h.cash/api/getbalance/"
+    },
+    {   "name": "PIVX",
+        "title": "Pivx",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1169/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/pivx/api.dws?q=getbalance&a="
+    },
+    {   "name": "GRS",
+        "title": "Groestlcoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/258/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/grs/api.dws?q=getbalance&a="
+    },
+    {   "name": "RVN",
+        "title": "Ravencoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2577/?convert=",
+        "blockchain":"http://rvnhodl.com/ext/getbalance/"
+    },
+    {   "name": "ONION",
+        "title": "DeepOnion",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1881/?convert=",
+        "blockchain":"http://explorer.deeponion.org/ext/getbalance/"
+    },
+    {   "name": "EOS",
+        "title": "EOS",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1765/?convert=",
+        "blockchain":"https://api.eospark.com/api?module=account&action=get_account_balance&apikey=a9564ebc3289b7a14551baf8ad5ec60a&account="
+    },
+    {   "name": "ADA",
+        "title": "Cardano",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2010/?convert=",
+        "blockchain":"https://cardanoexplorer.com/api/addresses/summary/"
+    },
+    {   "name": "OMG",
+        "title": "OmiseGo",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1808/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xd26114cd6EE289AccF82350c8d8487fedB8A0C07&tag=latest&address="
+    },
+    {   "name": "EMC2",
+        "title": "Einsteinium",
+        "price":"https://api.coinmarketcap.com/v2/ticker/201/?convert=",
+        "blockchain":"https://chainz.cryptoid.info/emc2/api.dws?q=getbalance&a="
+    },
+    {   "name": "ICX",
+        "title": "Icon",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2099/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xb5A5F22694352C15B00323844aD545ABb2B11028&tag=latest&address="
+    },
+    {   "name": "VEN",
+        "title": "VeChain",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1904/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xD850942eF8811f2A866692A623011bDE52a462C1&tag=latest&address="
+    },
+    {   "name": "ZIL",
+        "title": "Zilliqa",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2469/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x05f4a42e251f2d52b8ed15E9FEdAacFcEF1FAD27&tag=latest&address="
+    },
+    {   "name": "AE",
+        "title": "Aeternity",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1700/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x5CA9a71B1d01849C0a95490Cc00559717fCF0D1d&tag=latest&address="
+    },
+    {   "name": "BTM",
+        "title": "Bytom",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1866/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xcB97e65F07DA24D46BcDD078EBebd7C6E6E3d750&tag=latest&address="
+    },
+    {   "name": "ZRX",
+        "title": "0x",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1896/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xE41d2489571d322189246DaFA5ebDe1F4699F498&tag=latest&address="
+    },
+    {   "name": "REP",
+        "title": "Augur",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1104/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xE94327D07Fc17907b4DB788E5aDf2ed424adDff6&tag=latest&address="
+    },
+    {   "name": "MKR",
+        "title": "Maker",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1518/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2&tag=latest&address="
+    },
+    {   "name": "RHOC",
+        "title": "RChain",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2021/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x168296bb09e24A88805CB9c33356536B980D3fC5&tag=latest&address="
+    },
+    {   "name": "BAT",
+        "title": "Basic Attention Token",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1697/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x0D8775F648430679A709E98d2b0Cb6250d2887EF&tag=latest&address="
+    },
+    {   "name": "GNT",
+        "title": "Golem",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1455/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xa74476443119A942dE498590Fe1f2454d7D4aC0d&tag=latest&address="
+    },
+    {   "name": "WTC",
+        "title": "Waltonchain",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1925/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xb7cB1C96dB6B22b0D3d9536E0108d062BD488F74&tag=latest&address="
+    },
+    {   "name": "KCS",
+        "title": "KuCoin Shares",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2087/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x039B5649A59967e3e936D7471f9c3700100Ee1ab&tag=latest&address="
+    },
+    {   "name": "NAS",
+        "title": "Nebulas",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1908/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x5d65D971895Edc438f465c17DB6992698a52318D&tag=latest&address="
+    },
+    {   "name": "DGD",
+        "title": "DigixDAO",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1229/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A&tag=latest&address="
+    },
+    {   "name": "SNT",
+        "title": "Status",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1759/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x744d70FDBE2Ba4CF95131626614a1763DF805B9E&tag=latest&address="
+    },
+    {   "name": "HT",
+        "title": "Huobi Token",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2502/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x6f259637dcD74C767781E37Bc6133cd6A68aa161&tag=latest&address="
+    },
+    {   "name": "BNB",
+        "title": "Binance Coin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1839/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xB8c77482e45F1F44dE1745F52C74426C631bDD52&tag=latest&address="
+    },
+    {   "name": "BTG",
+        "title": "Bitcoin Gold",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2083/?convert=",
+        "blockchain":"https://btgexp.com/ext/getaddress/"
+    },
+    {   "name": "XIN",
+        "title": "Mixin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2349/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xA974c709cFb4566686553a20790685A47acEAA33&tag=latest&address="
+    },
+    {   "name": "MITH",
+        "title": "Mithril",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2608/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x3893b9422Cd5D70a81eDeFfe3d5A1c6A978310BB&tag=latest&address="
+    },
+    {   "name": "IOST",
+        "title": "IOST",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2405/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xFA1a856Cfa3409CFa145Fa4e20Eb270dF3EB21ab&tag=latest&address="
+    },
+    {   "name": "AION",
+        "title": "Aion",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2062/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466&tag=latest&address="
+    },
+    {   "name": "ELF",
+        "title": "Aelf",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2299/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e&tag=latest&address="
+    },
+    {   "name": "MANA",
+        "title": "Decentraland",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1966/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x0F5D2fB29fb7d3CFeE444a200298f468908cC942&tag=latest&address="
+    },
+    {   "name": "ICN",
+        "title": "Iconomi",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1408/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x888666CA69E0f178DED6D75b5726Cee99A87D698&tag=latest&address="
+    },
+    {   "name": "SC",
+        "title": "Siacoin",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1042/?convert=",
+        "blockchain":"https://siastats.info:3500/navigator-api/hash/"
+    },
+    {   "name": "STORJ",
+        "title": "Storj",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1772/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC&tag=latest&address="
+    },
+    {   "name": "HOT",
+        "title": "Holo",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2682/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x6c6EE5e31d828De241282B9606C8e98Ea48526E2&tag=latest&address="
+    },
+    {   "name": "NIM",
+        "title": "Nimiq",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2916/?convert=",
+        "blockchain":"https://api.nimiqx.com/account/"
+    },
+    {   "name": "FUN",
+        "title": "FunFair",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1757/?convert=",
+        "blockchain":"https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b&tag=latest&address="
+    },
+    {   "name": "ETP",
+        "title": "Metaverse ETP",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1703/?convert=",
+        "blockchain":"https://explorer.mvs.org/api/address/balance/ETP/"
+    },
+    {   "name": "KMD",
+        "title": "Komodo",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1521/?convert=",
+        "blockchain":"https://kmdexplorer.ru/insight-api-komodo/addr/"
+    },
+    {   "name": "NANO",
+        "title": "Nano",
+        "price":"https://api.coinmarketcap.com/v2/ticker/1567/?convert=",
+        "blockchain":"https://api.nanocrawler.cc/account/"
+    },
+    {   "name": "XTZ",
+        "title": "Tezos",
+        "price":"https://api.coinmarketcap.com/v2/ticker/2011/?convert=",
+        "blockchain":"https://betaapi.tezex.info/v2/tzx/account/"
+    },
+    {   "name": "XLM",
+        "title": "Stellar",
+        "price":"https://api.coinmarketcap.com/v2/ticker/512/?convert=",
+        "blockchain":"https://horizon.stellar.org/accounts/"
+    },
+    {   "name": "IOT",
+        "title": "IOTA",
+        "price":"https://api.coinmarketcap.com/v2/ticker/IOTA/?convert=",
+        "blockchain":"https://api.thetangle.org/v1/addresses/"
+    }
+    ]
+}
+

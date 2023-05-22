@@ -1,0 +1,5 @@
+{
+	"addressData": "https://api.compound.finance/api/v2/account?addresses[]=",
+	"actions": "https://mkr.tools/api/v1/cdp/REPLACE/actions",
+	"info":	"https://mkr.tools/api/v1/cdp/REPLACE"
+}

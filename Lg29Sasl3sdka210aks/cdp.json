@@ -1,0 +1,5 @@
+{
+	"history": "https://mkr.tools/api/v1/cdp/REPLACE/history",
+	"actions": "https://mkr.tools/api/v1/cdp/REPLACE/actions",
+	"info":	"https://mkr.tools/api/v1/cdp/REPLACE"
+}
